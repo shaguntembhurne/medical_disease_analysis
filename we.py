@@ -10,7 +10,7 @@ with open("svm_model.pkl", "rb") as file:
 with open("symptom_list.pkl", "rb") as file:
     all_symptoms = pickle.load(file)
 
-# Function to predict disease
+# Function to predict diseas
 def predict_disease(symptoms):
     input_data = np.zeros(len(all_symptoms))
 
