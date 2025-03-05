@@ -1,4 +1,4 @@
 streamlit
 numpy
-pickle5  # Only needed if using Python <3.8 (pickle is built-in)
+
 scikit-learn  # Required for SVM model loading
